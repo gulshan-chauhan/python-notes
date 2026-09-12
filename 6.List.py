@@ -5,14 +5,14 @@ print(food[-1:],food[0])#Indexing
 #List are mutable
 marks=[10,33,33,3]
 print(marks)
-marks[1]=88
+marks[1]=88 # Update value at index 1
 print(marks)
-#Slicing
+#Slicing    
 print(marks[1:3])
 #List function
-print(len(food))#Return length of list
-print(max(marks))#Return largest value of list
-print(min(marks))#Return smallest value of list
+print("Length of food list:",len(food))#Return length of list
+print("Largest value in marks list:",max(marks))#Return largest value of list
+print("Smallest value in marks list:",min(marks))#Return smallest value of list
 
 #Methods in list
 marks.append(90)#Adds element at the end
