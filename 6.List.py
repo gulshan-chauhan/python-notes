@@ -25,3 +25,12 @@ marks.remove(3)#Remove value
 print(marks)
 marks.insert(1,100)# Add value in any index
 print(marks)
+print(marks.count(33))#Count the number of times a value occurs in list
+print(marks.index(33))#Return the index of first occurrence of value
+marks.reverse()#Reverse the list
+print(marks)
+lis2=[44,44,56]
+marks.extend([lis2])#Add multiple values at the end of list
+print(marks)
+marks.clear()#Remove all elements from list
+print(marks)
