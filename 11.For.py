@@ -2,6 +2,7 @@
 food=["cake","Mango","apple"]#List
 for j in food:
     print(j)
+print(food)
 #Tuple
 name=("Goldie","Gulshan")
 for names in name:

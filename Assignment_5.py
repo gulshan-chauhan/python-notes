@@ -1,3 +1,9 @@
+# print * in increcing and descreaging form
+for i in range(1,6):
+    print("*"*i)
+for i in range(5,0,-1):#Decrease by one
+    print("*"*i)
+
 # Print even no.
 i=0
 while i<=10:

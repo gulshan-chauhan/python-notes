@@ -1,6 +1,6 @@
 import time
 #range (start"0",stop,add/step/gap"1 default value")
-for item in range(2,21,2):#multiple of 2 or even no.
+for item in range(2,21,2):#multiple of 2 or even no last two means increase by 2.
     print(item)
 for i in range(1,21,2):#odd no.
     print("odd no:",i)
