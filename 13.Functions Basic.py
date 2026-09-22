@@ -5,7 +5,7 @@ fun()
 #Function Defination With Parameter
 def showName_age(name="goldi",age=19):
     print(f"Hello {name} your age is {age}")
-showName_age("Gulshan", 19)
+showName_age("Gulshan", 19) 
 def fav_food(food):
     print(f"My favourite food is {food}")
 fav_food("Pizza")

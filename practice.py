@@ -1,0 +1,15 @@
+t1=(5,)
+print(type(t1))
+print("T1 repeated 3 times:", t1*3)
+T2=(1,2,3,4,5)
+print("Length of T2:", len(T2))
+print("Maximum value in T2:", max(T2))
+print("Minimum value in T2:", min(T2))
+list1=[6,7,8,9,10]
+print("Before conversion:", type(list1))
+t3=tuple(list1)
+print("After conversion:", type(t3))
+print("Concatenation of all tuples:", t1 + T2 + t3)
+print(2 in T2)
+for i in T2:
+    print("Element in T2:", i)
