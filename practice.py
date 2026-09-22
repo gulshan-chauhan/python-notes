@@ -12,4 +12,4 @@ print("After conversion:", type(t3))
 print("Concatenation of all tuples:", t1 + T2 + t3)
 print(2 in T2)
 for i in T2:
-    print("Element in T2:", i)
+    print(i)
